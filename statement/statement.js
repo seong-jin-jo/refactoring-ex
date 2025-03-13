@@ -50,3 +50,5 @@ function statement(invoice, plays){
 // 함수 호출 및 출력
 const output = statement(invoice[0], plays); // 첫 번째 청구서에 대해 호출
 console.log(output); // 결과 출력
+
+module.exports = statement;
